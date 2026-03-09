@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Unipi Audio Stories</string>
+    <string name="app_name">Audio Stories</string>
     <string name="login">Connexion</string>
     <string name="signup">S\'inscrire</string>
     <string name="username_hint">Nom d\'utilisateur</string>

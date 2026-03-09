@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Unipi Audio Stories</string>
+    <string name="app_name">Audio Stories</string>
     <string name="login">Login</string>
     <string name="signup">Sign Up</string>
     <string name="username_hint">Username</string>
