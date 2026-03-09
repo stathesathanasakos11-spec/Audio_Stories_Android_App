@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.UnipiAudioStories" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#6200EE</item>
+        <item name="android:windowSplashScreenBackground">#121212</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="android:windowSplashScreenBehavior">icon_preferred</item>
+
+        <item name="android:navigationBarColor">#6200EE</item>
+        <item name="android:windowBackground">#121212</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:editTextColor">#FFFFFF</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">#333333</item>
+        <item name="colorAccent">#BB86FC</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PurpleButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/PurpleButtonStyle</item>
+    </style>
+
+    <style name="PurpleButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">#BB86FC</item> <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BlackTitleDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowTitleStyle">@style/DialogTitleText</item>
+    </style>
+
+    <style name="DialogTitleText" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">#000000</item> </style>
+</resources>

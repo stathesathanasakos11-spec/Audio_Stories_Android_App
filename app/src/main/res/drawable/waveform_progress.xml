@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <scale
+            android:drawable="@drawable/ic_waveform_pattern"
+            android:scaleWidth="100%"
+            android:gravity="center"
+            android:alpha="0.2"
+            android:tint="#888888" />
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip android:gravity="left">
+            <scale
+                android:drawable="@drawable/ic_waveform_pattern"
+                android:scaleWidth="100%"
+                android:gravity="center"
+                android:tint="#6200EE" />
+        </clip>
+    </item>
+
+</layer-list>

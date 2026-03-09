@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#121212">
+
+    <RelativeLayout
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#6200EE"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnDeleteAccount"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_delete"
+            app:tint="#FFFFFF"
+            android:padding="10dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnLogout"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_logout"
+            app:tint="#FFFFFF"
+            android:padding="10dp"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvStories"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:requiresFadingEdge="vertical"
+        android:fadingEdgeLength="50dp"
+        app:layout_constraintTop_toBottomOf="@id/mainToolbar"
+        app:layout_constraintBottom_toTopOf="@id/bottomActions" />
+
+    <LinearLayout
+        android:id="@+id/bottomActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnRecords"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/circle_background"
+            android:src="@drawable/ic_stats"
+            app:tint="#FFFFFF"
+            android:padding="12dp"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/btnFavs"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/circle_background"
+            android:src="@drawable/ic_heart"
+            app:tint="#FFFFFF" />
+
+        <ImageButton
+            android:id="@+id/btnLanguage"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/circle_background"
+            android:src="@drawable/ic_language"
+            app:tint="#FFFFFF" />
+
+        <ImageButton
+            android:id="@+id/btnVoiceCommand"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/circle_background"
+            android:src="@android:drawable/ic_btn_speak_now"
+            app:tint="#FFFFFF" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
