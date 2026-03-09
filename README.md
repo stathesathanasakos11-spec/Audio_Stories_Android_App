@@ -1,8 +1,8 @@
 # Audio Stories
-Audio Stories is an innovative Android application designed to provide users with a rich and accessible audio storytelling experience. Developed for the University of Piraeus (Unipi), the app leverages modern Android development practices and Firebase services to deliver high-quality audio content with advanced voice-controlled navigation.
+Audio Stories is an innovative Android application designed to provide users with a rich and accessible audio storytelling experience. Developed for educational purposes for the University of Piraeus (Unipi), the app leverages modern Android development practices and Firebase services to deliver high-quality audio content with advanced voice-controlled navigation.
 
 ## Project Overview
-This application serves as a digital library where users can browse, search, and listen to a wide variety of audio stories. It is designed with a strong focus on accessibility, featuring a custom voice command system and full localization in three languages. The project demonstrates a seamless integration of cloud storage, real-time databases, and native Android capabilities like Speech Recognition and Text-to-Speech (TTS).
+This application serves as a digital library where users can browse, search, and listen to a variety of audio stories. It is designed with a strong focus on accessibility, featuring a custom voice command system and full localization in three languages. The project demonstrates a seamless integration of cloud storage, real-time databases, and native Android capabilities like Speech Recognition and Text-to-Speech (TTS).
 
 
 ## Features
@@ -106,5 +106,4 @@ One of the most complex features is the **Fuzzy Matching Algorithm** in `VoiceCo
    - Sync with Gradle files.
    - Run on an emulator or device (API 33+).
 
----
-*Developed as a project for the University of Piraeus (Unipi).*
+
