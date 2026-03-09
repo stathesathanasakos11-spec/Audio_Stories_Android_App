@@ -11,7 +11,7 @@ import java.util.Random;
 public class WaveformView extends View {
     private Paint paint = new Paint();
     // ένας πίνακας με 40 ψευδοτυχαίες τιμές για τα ύψη της μπάρας-κύματος που θα φτιάξω
-    private float[] heights = new float[40];
+    private float[] heights = new float[44];
     // το ποσοστό ολοκλήρωσης της εκφώνησης της εργασίας
     private float progress = 0;
     private Random random = new Random();
