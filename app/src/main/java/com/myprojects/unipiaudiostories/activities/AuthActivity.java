@@ -95,7 +95,7 @@ public class AuthActivity extends AppCompatActivity {
 
     private void updateAuthMode() {
         if (isLoginModeActive) {
-            etUsername.setVisibility(View.GONE); // στο login δεν χρειάζεται το όνομα χρήστη
+            etUsername.setVisibility(View.INVISIBLE);
             btnAction.setText(R.string.login);
             tvForgotPassword.setVisibility(View.VISIBLE);
             tvSwitchAuth.setText(R.string.signup);

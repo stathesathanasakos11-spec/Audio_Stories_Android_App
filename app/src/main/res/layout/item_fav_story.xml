@@ -52,8 +52,9 @@
 
         <ImageButton
             android:id="@+id/btnRemoveFav"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="26dip"
+            android:layout_height="26dip"
+            android:scaleType="fitCenter"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:contentDescription="@string/remove_fav"
             android:src="@android:drawable/ic_menu_delete"
